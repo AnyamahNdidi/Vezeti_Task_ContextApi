@@ -1,0 +1,139 @@
+
+
+.mainHeaderHolder{
+    height: 70px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	
+}
+
+@media screen and (max-width: 600px) {
+    .mainHeaderHolder{
+        justify-content: space-between;
+    }
+   
+}
+
+.logo{
+    font-size: 25px;
+	font-weight: bold;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .log{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
+
+.navigation{
+    display: flex;	
+    width: 50%;
+    
+   
+}
+
+@media screen and (max-width: 600px) {
+
+    .navigation{
+        margin-right: 10px;
+        display: none;
+        
+    }
+   
+}
+
+.nav{
+    margin-left: 10px;
+	margin-right: 10px;
+	transition: all 350ms;
+	
+	
+}
+@media screen and (max-width: 960px) {
+    .nav{
+        margin-right: 10px;
+        display: none;
+    }
+}
+
+.nav:hover{
+    color: gray;
+	cursor: pointer;
+}
+.menu{
+    display: none;
+    cursor: pointer;
+	
+}
+
+@media screen and (max-width: 960px) {
+    .menu{
+        display: block;
+        margin-right: 30px;
+        font-size: 30px;
+    }
+   
+}
+
+.sidenav{
+    height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 70px;
+	bottom: 0;
+	/* overflow: hidden; */
+	overflow-x: hidden;
+	position: fixed;
+	border-top: 1px solid silver;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	transition: 0.5s;
+	padding-bottom: 20px;
+	z-index: 1;
+	/* backdrop-filter: blur(5px); */
+}
+
+.wrapper{
+    height: 100%;
+	width: 70%;
+	background-color: #f3f8fe;
+	top: 70px;
+	bottom: 0;
+	overflow: hidden;
+	position: fixed;
+	border-top: 1px solid silver;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	transition: all 300ms;
+	padding-bottom: 20px;
+	z-index: 1;
+}
+
+.navhold2{
+
+}
+
+.navhold{
+    text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+.nav1{
+    border-bottom: 1px solid silver;
+	padding: 14px;
+	font-size: 14px;
+	
+}
+
+.nav1:hover{
+    color: #fbaf1b;
+}

@@ -1,0 +1,254 @@
+.container_dis{
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.showall{
+    width: 80%;
+    min-height: 600px;
+    height: auto;
+
+   
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .showall{
+        width: 90%;
+        height: auto;
+       
+    }
+    
+}
+
+.titleproduct{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.davd{
+    width: 100%;
+    height: auto;
+    background-color: #F1F1F1;
+}
+.addsearch{
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+@media screen and (max-width: 600px){
+    .addsearch{
+        width: 100%;
+        height: auto;
+       
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.inputcon input{
+width: 400px;
+height: 35px;
+border: none;
+outline: none;
+padding-left: 5px;
+border-radius: 5px;
+
+
+}
+
+@media screen and (max-width: 600px){
+    .inputcon {
+        width: 95%;
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .inputcon input{
+        width: 90%;
+       
+    }
+    
+}
+.addholder{
+    height: 39px;
+    width: 300px;
+ 
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px){
+    .addholder {
+        width: 90%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+.add{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #926EFC;
+    color: #F1F1F1;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.addmycon{
+    position: absolute;
+	background-color: rgba(30, 145, 243, 0.3);
+	min-height: 100vh;
+    height: 100%;
+   
+	width: 100%;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(5px);
+	z-index: 10;
+	
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .addmycon{
+        align-items: flex-start;
+    }
+   
+}
+
+.my_card_holder{
+    width: 100%;
+    height: auto;
+   
+    display: flex;
+    justify-content: center;
+    
+
+    
+}
+.my_card_holder1{
+    width: 98%;
+    min-height: 500px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+   justify-content: center;
+   padding-bottom: 30px;
+   
+}
+
+.cancel_form{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+
+@media screen and (max-width: 600px){
+    .cancel_form{
+        width: 90%;
+    }
+}
+.myformcon{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+@media screen and (max-width: 600px){
+    .myformcon{
+        width: 90%;
+        height: 300px;
+    }
+    
+}
+
+.myformcon input{
+    width: 90%;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 10px;
+    outline: none;
+}
+.myformcon button{
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+    background-color: #000000;
+    color: #F1F1F1;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.mycancel{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .mycancel{
+        width: 90%;
+    }
+
+}
+.mycancel span{
+    font-weight: 600;
+    padding-right: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.jum{
+    height: 500px;
+    width: 100%;
+    background-color: #F1F1F1;
+}
